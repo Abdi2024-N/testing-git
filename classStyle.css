@@ -1,0 +1,128 @@
+
+body{
+
+    
+    background-image:url(banner.jpeg);
+    background-repeat:no-repeat;
+    
+    background-position: center;
+    background-size:auto; 
+
+}
+.parent{
+    
+   
+   top: 0;
+   border-style: double;
+   height: 154px;
+   
+    
+    
+    
+}
+.child1{
+    
+    display: inline;
+    text-transform: uppercase;
+    border-style:solid;
+    position: absolute;
+    left: 20px;
+    
+}
+.child2{
+    display: inline;
+    right: 20px;
+    position: absolute;
+   
+    border-style:solid;
+}
+a{
+    font-size:14px ;
+    color: rgb(14, 14, 158);
+    text-transform: uppercase;
+    margin: 8px;
+}
+.child3{
+    
+    border-style:solid;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+h2.child3{
+    color: rgb(38, 66, 190);
+}
+.parent2{
+    
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: space-evenly;
+   
+    gap: 3px;
+    width:660px;
+   
+    border-style: double;
+    
+
+
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.bt1{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+    
+}
+.bt2{
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+      
+}
+.bt3
+{
+   
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+    }
+.bt4{
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+    }
+.bt5{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+    
+}
+.bt6{
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+    
+}
+h3.p2{
+    color: rgb(127, 146, 255);
+    justify-self: baseline;
+    margin-bottom: -0.9px;
+}
+.cont{
+    border-style: groove;
+    height: 554px;
+   
+}
+.footer{
+    bottom: 6px;
+    
+    border-style: dotted;
+
+}
